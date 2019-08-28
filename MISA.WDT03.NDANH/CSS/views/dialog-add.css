@@ -1,0 +1,223 @@
+﻿/* Phần giao diên hộp thoại sửa và thêm*/
+
+.ui-widget-header {
+    border: none;
+    background-color: #026b97;
+    color: #fff;
+    font-weight: 100;
+}
+.ct-row{
+    display: flex;
+}
+.wid-320px{
+    width: 320px;
+
+}
+.wid-124px {
+    width: 124px!important;
+}
+.wid-100{
+    width: 100%!important;
+}
+
+.box-in-dialog {
+    display: flex;
+    margin-bottom: 4px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+    .box-in-dialog .box-label {
+        align-self: center;
+        white-space: nowrap;
+        margin-right: 8px;
+    }
+    .box-in-dialog .box-input {
+        align-self: center;
+        display: flex;
+        width: 100% !important;
+    }
+    .box-in-dialog input, .box-in-dialog select {
+        padding: 2px 4px;
+        height: 19px;
+        border-radius: 0;
+        box-shadow: none;
+        border: 1px solid #ccc;
+        width: 100% !important;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+    }
+    .flex-shrink-0 {
+        flex-shrink: 0 !important;
+    }
+.required-label {
+    color: red;
+    box-sizing: border-box;
+    text-align: left;
+}
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+.padding-left-20px {
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.date-picker {
+    position: absolute;
+    top: 1px;
+    height: 27px;
+    background-image: url(../../Content/icons/common-icon.png);
+    background-position: 0 -174px;
+    background-repeat: no-repeat;
+    /* width: 27px; */
+    right: -14px;
+}
+.dateWrap{
+    position:relative;
+}
+.dialog-footer {
+    position: relative;
+    min-height: 30px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+    .dialog-footer .right {
+        position: absolute;
+        display: flex;
+        right: 0;
+        top: 10px;
+        bottom: 0;
+    }
+    .dialog-footer .left {
+        position: absolute;
+        height: 100%;
+        display: flex;
+        left: 0;
+    }
+
+        .dialog-btn {
+            display: flex;
+            background-color: #fff;
+            border-width: 1px;
+            border-style: solid;
+            border-color: buttonface;
+            border-image: initial;
+            justify-content: center;
+            padding: 2px;
+            min-width: 75px;
+            margin-right:10px; 
+        }
+.btn-icon {
+    width: 16px;
+    height: 16px;
+    align-self: center;
+    margin-right: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon-save {
+    background-image: url('../../Content/icons/Save16.png');
+}
+.icon-saveadd {
+    background-image: url('../../Content/icons/SaveAdd16.png');
+}
+.icon-close {
+    background-image: url('../../Content/icons/Disable16.png');
+}
+.icon-help {
+    background-image: url('../../Content/icons/IconSprite.png');
+    background-position: 0-1600px !important;
+}
+.btnSaveDetail {
+    width: 86px;
+    height: 25px;
+    font-size: 13px;
+}
+#btnSaveAddDetail {
+    width: 125px;
+    height: 25px;
+    font-size: 13px;
+}
+#btnCancelDialog {
+    width: 86px;
+    height: 25px;
+    font-size: 13px;
+}
+.btn-align-left {
+    width: 86px;
+    height: 25px;
+}
+#btnSaveAddDetailEdited {
+    width: 125px;
+    height: 25px;
+    font-size: 13px;
+}
+
+#btnCancelDialogEdited {
+    width: 86px;
+    height: 25px;
+    font-size: 13px;
+}
+.checkbox-status-dialog{
+    margin-left: 116px;
+}
+.relative{
+    position: relative;
+}
+.error {
+    display: none;
+    position: absolute;
+    width: 155px;
+    height: 19px;
+    border: 2px solid #e66767;
+    top: 1px;
+    right: 28px;
+}
+.error-icon {
+    width: 25px;
+    height: 21px;
+    position: absolute;
+    top: -2px;
+    right: -29px;
+    background: url(../../Content/icons/exclamation.png) no-repeat center;
+}
+.error-message {
+    display: none;
+    background-color: #e4dfdf;
+    position: absolute;
+    top: 26px;
+    right: -181px;
+    font-size: 11px;
+    padding: 6px;
+    border-radius: 7px;
+    z-index: 1;
+}
+    .error-message div {
+        width: 25px;
+        height: 21px;
+        position: absolute;
+        background: url(../../Content/icons/exclamation.png) no-repeat center;
+        top: 0;
+        left: 0;
+    }
+    .error-message span {
+        padding-left: 18px;
+        padding-right: 5px;
+    }
+.error-customer-name {
+   right: -50px!important;
+}
+.display{
+    display:block!important;
+}
+.error-name-container {
+    right: 17px!important;
+}
+.error-name-icon {
+    right: -22px!important;
+}

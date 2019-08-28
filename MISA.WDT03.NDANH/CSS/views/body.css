@@ -1,0 +1,59 @@
+﻿/* Khởi tạo các thàn phần của body
+    
+*/
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../../Content/fonts/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../../Content/fonts/Roboto-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../../Content/fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+
+
+body {
+    margin: 0px;
+    font-family: 'Roboto-Regular';
+}
+
+.menu {
+    position: absolute;
+    width: 230px;
+    height: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #0973b9;
+    margin: 0;
+    z-index: 2;
+}
+
+.header {
+    left: 230px;
+    right: 0;
+    background-color: #0973b9;
+    position: absolute;
+    width: calc(100% - 230px);
+    height: 55px;
+    top: 0;
+}
+
+.content{
+    position: absolute;
+    left: 230px;
+    top: 55px;
+    bottom: 0;
+    right: 0;
+    width: calc(100% - 230px);
+    height: calc(100% - 55px);
+    background-color: white;
+}
+.error-pagging {
+    border: 1px solid #cf4c35;
+    outline: none;
+}

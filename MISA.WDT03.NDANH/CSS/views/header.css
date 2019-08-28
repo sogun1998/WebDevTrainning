@@ -1,0 +1,107 @@
+﻿
+/*
+    Phần header
+*/
+
+.header .header-left {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 50%;
+    z-index: 2;
+}
+
+    .header-left select{
+        width: 200px;
+        height: 32px;
+        margin: 10px 0 0 8px;
+        background-color: #00577b;
+        border: none;
+        color: #fff;
+        font-size: 13px;
+    }
+
+.header .header-right {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 50%;
+    display: flex;
+    /*justify-content: flex-end;*/
+}
+
+    .header-right .user-panel{
+        width: 180px;
+        height: 100%;
+        display: flex;
+        line-height: 55px;
+        color: #fff;
+        font-size: 14px;
+        position: absolute;
+        right: 0;
+    }
+
+        .user-panel .img-user {
+            height: 28px;
+            width: 28px;
+            background-image: url('../../Content/icons/EmployeeImage.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 13px 5px 0 0;
+            background-color: #fff;
+            border-radius: 30px;
+        }
+
+        .arrow-down-white {
+            width: 28px;
+            background-image: url('../../Content/icons/default-small-arrow.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-left: 10px;
+        }
+    .header-right .icon{
+        position: absolute;
+        width: 65px;
+        height: 55px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    .header-right .support {
+        right: 180px;
+        width: 50px;
+        height: 55px;
+        background-image: url('../../Content/icons/ic_support.svg');
+        background-position: center;
+        background-repeat:no-repeat;
+    }
+
+    .header-right .notification {
+        right: 245px;
+        width: 24px;
+        height: 24px;
+        background-image: url('../../Content/icons/notification.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 15px;
+    }
+
+    .header-right .header-right-lang{
+        position: absolute;
+        right: 290px;
+        width: 170px;
+        height: 32px;
+        margin: 10px 15px 0 8px;
+        background-color: #00577b;
+        border: none;
+        color: #fff;
+        font-size: 13px;
+    }
+.icon-notification {
+    position: absolute;
+    top: 5px;
+    right: 239px;
+}
+

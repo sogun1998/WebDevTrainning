@@ -1,0 +1,62 @@
+﻿
+/* 
+    Phần giao diện hộp thoại xóa
+    
+*/
+
+.del-up{
+    width: 100%;
+    height: calc(100% - 25px);
+    display: flex
+}
+
+    .del-up .del-icon {
+        margin-top: 5px;
+        width: 32px;
+        height: 32px;
+        background: url('../../Content/icons/icon-question.png') center no-repeat;
+    }
+    .del-up .del-text{
+        height: 100%;
+        width: calc(100% - 32px);
+        font-size: 13px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+.del-down{
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+
+    .del-down .del-down-left{
+        width: 50%;
+        height: 100%;
+    }
+    .del-down .del-down-right {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 14px;
+    }
+
+        .del-down-right .btn-del-yes{
+            width: 75px;
+            height: 24px;
+            outline: none;
+            background-color: #f0f0f0;
+            border: 1px solid #e1e1e1;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .del-down-right .btn-del-no{
+            width: 75px;
+            height: 24px;
+            outline: none;
+            background-color: #f0f0f0;
+            border: 1px solid #e1e1e1;
+            cursor: pointer;
+        }

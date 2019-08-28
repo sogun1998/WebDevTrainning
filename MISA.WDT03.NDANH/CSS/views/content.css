@@ -1,0 +1,296 @@
+﻿
+/** * Chỉnh sửa giao diện phần content
+    
+*/
+
+.content .content-header {
+    width: 100%;
+    height: 39px;
+    display: flex;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+    .content-header .content-title{
+        width: 50%;
+        height: 35px;
+        display: flex;
+        z-index: 2;
+    }
+
+        .content-title .content-category{
+            position: absolute;
+            left: 0;
+            width: 85px;
+            font-size: 18px;
+            margin: 7px 0 0 5px;
+        }
+
+        .content-title .arrow-left {
+            position: absolute;
+            left: 85px;
+            width: 16px;
+            height: 16px;
+            background: url('../../Content/icons/IconSprite.png') no-repeat;
+            background-position: 0 -1247px;
+            margin: 9px 12px 0px 8px;
+        }
+
+        .content-title .content-customer{
+            position: absolute;
+            left: 115px;
+            font-size: 13px;
+            margin: 10px 0 0 0;
+            color: #026b97;
+        }
+
+    .content-header .content-btn{
+        width: 50%;
+        height: 35px;
+        display: flex;
+    }
+
+        .content-btn .btn-feedback{
+            width: 100px;
+            height: 28px;
+            background-color: #f0f0f0;
+            border: 1px solid #e1e1e1;
+            display: flex;
+            outline: none;
+            margin: 5px 10px 0 8px;
+            cursor: pointer;
+            font-size: 13px;
+            position: absolute;
+            right: 5px;
+        }
+
+            .btn-feedback .icon-feedback {
+                height: 16px;
+                width: 16px;
+                background: url('../../Content/icons/viewEmail.png') no-repeat center;
+            }
+
+            .btn-feedback .text-feedback{
+                margin-left: 8px;
+                line-height: 20px;
+            }
+        .content-btn .btn-undo{
+            position: absolute;
+            right: 125px;
+            width: 170px;
+            height: 28px;
+            background-color: #f0f0f0;
+            border: 1px solid #e1e1e1;
+            outline: none;
+            margin-top: 5px;
+            cursor: pointer;
+            font-size: 13px;
+        }
+
+/* Chỉnh sửa giao diện phần toolbar
+*/
+
+.content .toolbar {
+    width: 100%;
+    height: 27px;
+    display: flex;
+}
+
+    .toolbar .toolbar-wrap{
+        height: 100%;
+        width: 110px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        outline: none;
+        background-color: #f0f0f0;
+        border-right: 1px solid #e1e1e1 !important;
+        cursor: pointer;
+        border: none;
+    }
+
+    .toolbar .toolbar-wrap-small{
+        height: 100%;
+        width: 70px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        outline: none;
+        background-color: #f0f0f0;
+        border-right: 1px solid #e1e1e1 !important;
+        border: none;
+        cursor: pointer;
+    }   
+
+    .toolbar .toolbar-wrap-big{
+        height: 100%;
+        width: 140px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        outline: none;
+        background-color: #f0f0f0;
+        border-right: 1px solid #e1e1e1 !important;
+        cursor: pointer;
+        border: none;
+    }
+
+    .tool-icon {
+        position: absolute;
+        top: 0;
+        width: 16px;
+        height: 16px;
+        background-image: url('../../Content/icons/IconSprite.png');
+        background-repeat: no-repeat;
+        margin: 4px 5px 0 0;
+    }
+
+        .toolbar-wrap-small .tool-icon-add{
+            background-position: 0 -2648px;
+        }
+        .toolbar-wrap .tool-icon-copy{
+            background-position: 0 -2096px;
+        }
+        .toolbar-wrap-small .tool-icon-edit {
+            background: url('../../Content/icons/Edit16.png') no-repeat center;
+        }
+        .toolbar-wrap-small .tool-icon-del{
+            background-position: 0 -2680px;
+        }
+        .toolbar-wrap-small .tool-icon-reload{
+            background-position: 0 -2585px;
+        }
+        .toolbar-wrap .tool-icon-import {
+            background: url('../../Content/icons/Import16.png') center no-repeat;
+        }
+        .toolbar-wrap .tool-icon-export {
+            background: url('../../Content/icons/excel_97_24.png') center no-repeat;
+        }
+        .toolbar-wrap-big .tool-icon-gross {
+            background: url('../../Content/icons/ic_GopKhachHang.png') center no-repeat;
+        }
+        .toolbar-wrap-small .tool-icon-help{
+            background-position: 0 -1600px;
+        }
+
+    .toolbar-wrap .tool-text {
+        width: 82px;
+        height: 100%;
+        color: #000;
+        font-size: 13px;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .toolbar-wrap-small .tool-text {
+        width: 90px;
+        height: 100%;
+        color: #000;
+        font-size: 13px;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .toolbar-wrap-big .tool-text {
+        width: 110px;
+        height: 100%;
+        color: #000;
+        font-size: 13px;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+.content .table-content {
+    width: 100%;
+    height: calc(100% - 41px - 27px - 26px);
+    position: absolute;
+    top: 68px;
+    bottom: 26px;
+    overflow: auto;
+}
+
+/* * Chỉnh sửa giao diện phần paging
+*/
+
+.paging-toolbar {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 0 0 0 6px;
+    color: #4b4c4c;
+    height: 26px;
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    display: flex;
+    font-size: 13px;
+    min-width: 800px;
+}
+    .paging-toolbar .left {
+        align-items: center;
+        display: flex;
+        flex-grow: 1;
+    }
+
+        .left span{
+            margin-right: 16px;
+        }
+
+    .paging-toolbar .center {
+        flex-grow: 8;
+    }
+
+    .paging-toolbar .right {
+        align-items: center;
+        display: flex;
+        padding-right: 10px;
+        flex-grow: 0;
+    }
+
+    .item-toolbar-wrap .item-toolbar{
+        width: 16px;
+        height: 16px;
+        margin-right: 20px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+
+        .page-first {
+            background: url('../../Content/icons/page-first.png') center no-repeat;
+        }
+        .page-prev {
+            background: url('../../Content/icons/page-prev.png') center no-repeat;
+        }
+        .page-next {
+            background: url('../../Content/icons/page-next.png') center no-repeat;
+        }
+        .page-last {
+            background: url('../../Content/icons/page-last.png') center no-repeat;
+        }
+        .page-reload {
+            background: url('../../Content/icons/refresh.png') center no-repeat;
+        }
+
+        .item-toolbar #pageIndex{
+            width: 22px;
+            height: 10px;
+            text-align:center; 
+            padding: 4px 6px; 
+            color: #404040;
+            margin: 0 10px;
+        }
+        
+        #pageSize{
+            width: 60px;
+            height: 24px;
+            text-align:center; 
+            color: #404040;
+            margin: 0 10px;
+        }
+
+.text-align-center {
+    text-align: center;
+}
+.text-align-right{
+    text-align: right;
+}

@@ -1,0 +1,14 @@
+F:\tạm thời\MISA.WDT03.NDANH\MISA.Entities\bin\Debug\MISA.Entities.dll.config
+F:\tạm thời\MISA.WDT03.NDANH\MISA.Entities\bin\Debug\MISA.Entities.dll
+F:\tạm thời\MISA.WDT03.NDANH\MISA.Entities\bin\Debug\MISA.Entities.pdb
+F:\tạm thời\MISA.WDT03.NDANH\MISA.Entities\bin\Debug\EntityFramework.dll
+F:\tạm thời\MISA.WDT03.NDANH\MISA.Entities\bin\Debug\EntityFramework.SqlServer.dll
+F:\tạm thời\MISA.WDT03.NDANH\MISA.Entities\bin\Debug\EntityFramework.xml
+F:\tạm thời\MISA.WDT03.NDANH\MISA.Entities\bin\Debug\EntityFramework.SqlServer.xml
+F:\tạm thời\MISA.WDT03.NDANH\MISA.Entities\obj\Debug\MISA.Entities.csproj.CoreCompileInputs.cache
+F:\tạm thời\MISA.WDT03.NDANH\MISA.Entities\obj\Debug\MISA.Entities.csproj.CopyComplete
+F:\tạm thời\MISA.WDT03.NDANH\MISA.Entities\obj\Debug\MISA.Entities.dll
+F:\tạm thời\MISA.WDT03.NDANH\MISA.Entities\obj\Debug\MISA.Entities.pdb
+F:\tạm thời\MISA.WDT03.NDANH\MISA.Entities\obj\Debug\MISA.Entities.Migrations.Initial.resources
+F:\tạm thời\MISA.WDT03.NDANH\MISA.Entities\obj\Debug\MISA.Entities.csproj.GenerateResource.cache
+F:\tạm thời\MISA.WDT03.NDANH\MISA.Entities\obj\Debug\MISA.Entities.csprojAssemblyReference.cache
